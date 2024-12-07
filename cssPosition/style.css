@@ -1,0 +1,31 @@
+
+
+.parent{
+    width: 50%;
+    height: 350px;
+    background-color: rgb(124, 76, 190);
+    border: 1px black solid;
+    position: absolute;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(66, 160, 61);
+    border: 1px black solid;
+    position: relative;
+    left: 100%;
+
+}
+
+.fixed{
+    position: fixed;
+    top:10%;
+    left: 90%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 66, 66);
+}
+
+/* position: absolute,relative,fixed
+left,right,top,bottom*/
